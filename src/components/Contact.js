@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Fade from 'react-reveal/Fade';
-import data from '../yourdata';
+import data from '../data';
 
 class Contact extends Component {
     state = {  }
@@ -22,8 +22,7 @@ class Contact extends Component {
                 </ul>
         </div>
         </Fade>
-
-            {/* <span className='footer'>Made With ❤ by <a href="http://chetanverma.com/">Chetan Verma</a></span> */}
+        
         </div>);
     }
 }
